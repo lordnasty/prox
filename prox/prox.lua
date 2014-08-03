@@ -1,5 +1,5 @@
-class = require("middleclass.middleclass")
-local Gamestate = require("hump.gamestate")
+class = require("prox.middleclass.middleclass")
+local Gamestate = require("prox.hump.gamestate")
 
 local prox = {
 	-- Overloadable callbacks
@@ -7,18 +7,18 @@ local prox = {
 	exit = function() end,
 
 	-- Expose modules
-	Animation = require("Animation"),
-	Animator = require("Animator"),
-	Entity = require("Entity"),
-	Gamestate = require("hump.gamestate"),
-	Log = require("Log"),
-	Mathf = require("Mathf"),
-	Preferences = require("Preferences"),
-	Resources = require("Resources"),
-	Scene = require("Scene"),
-	Script = require("Script"),
-	Transform = require("Transform"),
-	Vector2 = require("Vector2"),
+	Animation   = require("prox.Animation"),
+	Animator    = require("prox.Animator"),
+	Entity      = require("prox.Entity"),
+	Gamestate   = require("prox.hump.gamestate"),
+	Log         = require("prox.Log"),
+	Mathf       = require("prox.Mathf"),
+	Preferences = require("prox.Preferences"),
+	Resources   = require("prox.Resources"),
+	Scene       = require("prox.Scene"),
+	Script      = require("prox.Script"),
+	Transform   = require("prox.Transform"),
+	Vector2     = require("prox.Vector2"),
 }
 
 function love.load()

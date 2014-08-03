@@ -1,4 +1,4 @@
-local Component = require("Component")
+local Component = require("prox.Component")
 
 local Renderer = class("Renderer", Component)
 

@@ -1,5 +1,5 @@
-local Vector2 = class("Vector2")
-local Mathf = require("Mathf")
+local Vector2 = class("prox.Vector2")
+local Mathf = require("prox.Mathf")
 
 function Vector2:initialize(x, y)
 	self.x = x or 0
